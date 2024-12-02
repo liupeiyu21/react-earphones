@@ -1,0 +1,11 @@
+
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.banner img{
+    max-width: 200px;
+    margin-left: 70px;
+}
