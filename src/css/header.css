@@ -1,0 +1,86 @@
+
+p , h1{
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw 5vw;
+    max-height: 142px;
+    border-bottom: 1px #EFEFEF solid ;
+}
+.logo{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+   
+}
+h1{
+    margin: 0;
+}
+h1 > img{
+    max-width: 262px;
+    
+}
+.logo-text{
+    white-space: nowrap;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+
+}
+li{
+    padding: 0 50px 0 0;
+    margin-top: 3%;
+}
+ul li button{
+    border: none;
+    background-color:white;
+    cursor: pointer;
+    font-size: 20px;
+    white-space: nowrap;
+}
+.headIcon{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+.headIcon > div{
+    padding-right: 20px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.favoriteIcon img{
+    width: 40px;
+    height: 35.5px;
+    margin-top: 4px;
+}
+
+.navCategory{
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.navCategory > div > ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.navCategory > div > ul > li > a{
+    font-size: 12px;
+}
+
+
