@@ -1,0 +1,42 @@
+
+
+
+.swiper-pagination{
+    position: static;
+    margin-top: 26px;
+  
+}
+.swiper-pagination > span {
+    padding: 10px;
+
+}
+
+.swiper-scrollbar {
+    display: none;
+}
+.swiper-pagination {
+    --swiper-pagination-bullet-horizontal-gap: 20px; 
+    --swiper-theme-color: #F08300;
+  }
+
+
+.swiper-slide-content {
+    display: flex;               /* flexboxを使用 */
+    justify-content: center;     /* 横方向に中央揃え */
+    align-items: center;         /* 縦方向に中央揃え */
+    height: 100%;                /* スライドの高さを100%に */
+  }
+  
+  .swiper-slide img {
+    max-width: 100%;  /* 画像の幅がスライドに収まるように調整 */
+    height: auto;     /* 画像の縦横比を保ちながら高さを自動調整 */
+  }
+.swiper-movebtn{
+  position: absolute;
+  top: 36%;
+  z-index: 9999;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
