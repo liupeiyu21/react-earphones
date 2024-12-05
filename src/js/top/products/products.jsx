@@ -43,7 +43,7 @@ const Products = () => {
             </div>
          
             <div className="column">
-                <ItemList items={newItems} />
+                <ItemList items={newItems}  />
             </div>
             <div className="Linkbtn">
                 <button className="linkbtn">すべて見る</button>  

@@ -1,149 +1,63 @@
-import React from "react";
+
+import "swiper/css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
 
 
-// const highProducts = [
-//     {
-//       id: 1,
-//       brand: "Apple",
-//       name: "AirPods Pro MWPP2J/A [美品]",
-//       status: "最高買取金額",
-//       price: "¥15,700",
-//       image : Recentlychecked,
-//     },
-//     {
-//       id: 2,
-//       brand: "ANIMA",
-//       name: "ANW03 Midnight Grand Orchestra Ver.",
-//       status: "最高買取金額",
-//       price: "¥25,700",
-//       image: Recentlychecked,
-//     },
-//     {
-//       id: 3,
-//       brand: "FiiO",
-//       name: "BTA30Pro [FiiO-BTA30PRO]",
-//       status: "最高買取金額",
-//       price: "¥23,700",
-//       image: Recentlychecked,
-//     },
-//     {
-//       id: 4,
-//       brand: "FiiO",
-//       name: "BTA30Pro [FiiO-BTA30PRO]",
-//       status: "最高買取金額",
-//       price: "¥23,700",
-//       image: Recentlychecked,
-//     },
-// ];
+import Tophighprice from '../../assets/top-highprice.png'
+import '../../css/highprice.css'
+import { SlideNextButton } from "./SlideNextButton";
+import { SlidePrevButton } from "./SlidePrevButton";
+const data = ["Slide 1", "Slide 2", "Slide 3", "Slide 4","Slide 5","Slide 6","Slide 7","Slide 8"] ;
 
 
-
-
-
-
-import React, { useState } from "react";
-import "./App.css"; // CSSを適用するためのファイルをインポート
-
-// サンプルのアイテムデータ
-const items = [
-  { id: 1, name: "andme その他アウター", price: "¥8,590", colors: "全4色" },
-  { id: 2, name: "andme ブルゾン", price: "¥7,090", colors: "全3色" },
-  { id: 3, name: "GIRL パンツドレス", price: "¥18,900", colors: "全3色" },
-  { id: 4, name: "CORNERS by KR ワンピース", price: "¥6,490", colors: "全4色" },
-  { id: 5, name: "nano・universe ダウンジャケット", price: "¥60,500", colors: "全3色" },
-];
-
-function App() {
-  const [currentIndex, setCurrentIndex] = useState(0); // 現在のスライドインデックス
-
-  // スライドを右に移動
-  const handleNext = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === items.length - 1 ? 0 : prevIndex + 1
-    );
-  };
-
-  // スライドを左に移動
-  const handlePrev = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? items.length - 1 : prevIndex - 1
-    );
-  };
-
+function HighProducts() {
   return (
-    <div className="slider-container">
-      <h1>クーポン対象の人気アイテム</h1>
-      <div className="slider">
-        {/* 左矢印ボタン */}
-        <button className="arrow-button left" onClick={handlePrev}>
-          ◀
-        </button>
-
-        {/* 現在のアイテムを表示 */}
-        <div className="slider-item">
-          <h2>{items[currentIndex].name}</h2>
-          <p>{items[currentIndex].price}</p>
-          <p>{items[currentIndex].colors}</p>
+    <>
+    <div className="old-items">
+       <h2>高価買取中</h2>
+      <Swiper
+        spaceBetween={50}
+        slidesPerView={4}
+        onSlideChange={() => console.log("slide change")}
+        onSwiper={(swiper) => console.log(swiper)}
+        modules={[Pagination]}
+        pagination={{
+          type: "fraction",
+        }}
+      >
+        <div className="old-items-card">
+          {data.map((d) => (
+            <SwiperSlide>
+            <img src={Tophighprice} alt="買取商品の画像" />
+            <p className="old-brand">ブランド名</p>
+            <p className="old-name">商品の名前</p>
+            <p className="old-status">最高買取金額</p>
+            <p className="old-price">¥500,000</p>
+            </SwiperSlide>
+          ))}
         </div>
-
-        {/* 右矢印ボタン */}
-        <button className="arrow-button right" onClick={handleNext}>
-          ▶
-        </button>
-      </div>
-    </div>
+          <div className="old-item-btn">
+              <SlidePrevButton />
+              <SlideNextButton />
+        </div>
+      </Swiper>
+      
+        <button className="old-btn">売れる価格をチェックする ＞</button>
+      
+     </div>
+    </>
   );
 }
 
-export default App;
+export default HighProducts;
 
 
 
-.slider-container {
-    text-align: center;
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  .slider {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 20px;
-    position: relative;
-  }
-  
-  .slider-item {
-    flex: 1;
-    text-align: center;
-    background-color: #f5f5f5;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .arrow-button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  .arrow-button:hover {
-    background-color: #0056b3;
-  }
-  
-  .arrow-button.left {
-    position: absolute;
-    left: -50px;
-  }
-  
-  .arrow-button.right {
-    position: absolute;
-    right: -50px;
-  }
+
+
+
+
+
+
   

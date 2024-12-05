@@ -1,5 +1,8 @@
 
 
+.swiper{
+  margin-top: 40px;
+}
 
 .swiper-pagination{
     position: static;

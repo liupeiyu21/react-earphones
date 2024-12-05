@@ -9,6 +9,7 @@ import { Slider } from './top/fasview'
 import RecentProducts from './top/recentlychecked'
 
 import Products from './top/products/products'
+import HighProducts from './top/highprice';
 
 
 
@@ -23,7 +24,7 @@ function App() {
       <RecentProducts />
       <Products />
     </div>
-  
+    <HighProducts />
      <Footer />
      
     </>
