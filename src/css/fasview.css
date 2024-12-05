@@ -7,7 +7,7 @@
   
 }
 .swiper-pagination > span {
-    padding: 10px;
+    padding: 8px;
 
 }
 
@@ -24,7 +24,8 @@
     display: flex;               /* flexboxを使用 */
     justify-content: center;     /* 横方向に中央揃え */
     align-items: center;         /* 縦方向に中央揃え */
-    height: 100%;                /* スライドの高さを100%に */
+    height: 100%;  
+               /* スライドの高さを100%に */
   }
   
   .swiper-slide img {
@@ -39,4 +40,6 @@
   display: flex;
   justify-content: space-between;
 }
-
+.swiper-slide{
+  padding: 0 10px;
+}

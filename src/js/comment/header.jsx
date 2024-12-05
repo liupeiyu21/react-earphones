@@ -65,7 +65,7 @@ export default function Header() {
       </nav>
 
 
-      <div className='navCategory'>
+      <div className='navCategory' style={{display: 'none'}}>
         <div className='wireless'>
           <h3>ワイヤレス</h3>
           <ul>

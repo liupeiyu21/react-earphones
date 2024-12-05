@@ -15,7 +15,7 @@ export const Slider = () => {
         <>
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
-        //   spaceBetween={20}
+          spaceBetween={20}
           slidesPerView={5}
           navigation = {{
             nextEl: '.pre',
