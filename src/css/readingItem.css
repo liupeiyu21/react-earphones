@@ -1,0 +1,18 @@
+
+.read-items{
+    margin-left: 430px;
+}
+.read-items > h2{
+    margin-top: 100px;
+    background-color: black;
+    color: #F08300;
+    padding: 5px 0;
+}
+.reading-item-btn{
+    position: absolute;
+    z-index: 100000;
+    top: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

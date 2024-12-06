@@ -10,7 +10,9 @@ import RecentProducts from './top/recentlychecked'
 
 import Products from './top/products/products'
 import HighProducts from './top/highprice';
-
+import StaffReview from './top/staffreview/staffreview'
+import TopUsersReview from './top/UsesrReview/UsersReview'
+import ReadingItem from './top/readItem/readItem'
 
 
 function App() {
@@ -25,6 +27,9 @@ function App() {
       <Products />
     </div>
     <HighProducts />
+    <StaffReview />
+    <TopUsersReview />
+    <ReadingItem />
      <Footer />
      
     </>
