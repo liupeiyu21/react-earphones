@@ -13,6 +13,7 @@ import HighProducts from './top/highprice';
 import StaffReview from './top/staffreview/staffreview'
 import TopUsersReview from './top/UsesrReview/UsersReview'
 import ReadingItem from './top/readItem/readItem'
+import Recommendation from './top/recommendation'
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
     <StaffReview />
     <TopUsersReview />
     <ReadingItem />
+    <Recommendation />
      <Footer />
      
     </>

@@ -1,0 +1,28 @@
+
+.recom{
+    background-color: #FCF9E8;
+    padding: 50px 0;
+    margin: 100px 0 100px 430px;
+    width: 1010px;
+}
+.recom-content{
+    display: flex;
+}
+
+/* .recom-img > img{
+    width: 100%;
+} */
+.recom-img > p{
+    margin: 0 40px;
+    text-align: left;
+    background-color: #fff;
+    padding: 0 10px 30px 0;
+}
+.recom-imgs{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.recom > h2{
+    margin-bottom: 50px;
+}

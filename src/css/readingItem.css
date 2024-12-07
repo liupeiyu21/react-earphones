@@ -16,3 +16,12 @@
     display: flex;
     justify-content: space-between;
 }
+.read-items-card > img{
+    width: 100%;
+}
+.read-title{
+    text-align: left;
+}
+.read-sentence{
+    text-align: left;
+}
