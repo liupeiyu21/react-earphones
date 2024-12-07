@@ -1,5 +1,5 @@
 .news-content{
-    width: 1010px;
+    width: 860px;
     margin-left: 430px;
     border: 4px #707070 solid;
     display: flex;
@@ -8,7 +8,7 @@
 }
 .news{
     
-    padding-bottom: 50px;
+    padding-bottom: 5px;
 }
 .news > p{
     margin-right: 40px;
@@ -25,4 +25,14 @@
 }
 .news-notice{
     border-right:4px #707070 solid ;
+}
+.news > button{
+    display: block;
+    margin: 0 40px 20px auto;
+    padding: 10px;
+    font-size: 20px;
+    color: #F08300;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
 }

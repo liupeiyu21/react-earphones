@@ -15,6 +15,9 @@ import TopUsersReview from './top/UsesrReview/UsersReview'
 import ReadingItem from './top/readItem/readItem'
 import Recommendation from './top/recommendation'
 import News from './top/news'
+import Guidance from './top/guidance'
+import '../css/guidance.css'
+import Cooperate from './top/cooperate'
 
 function App() {
 
@@ -33,6 +36,8 @@ function App() {
     <ReadingItem />
     <Recommendation />
     <News />
+    <Guidance />
+    <Cooperate />
      <Footer />
      
     </>

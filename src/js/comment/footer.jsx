@@ -15,6 +15,7 @@ function Footer(){
     return(
         <>
             <footer>
+            
                 <div className="address">
                     <h3>店舗案内</h3>
                     <ul>
@@ -55,9 +56,9 @@ function Footer(){
                         <img src={insIcon} alt="insのアイコンです" />
                     </div>
                 </div>
-                <div className='infomation'>
+              
 
-                </div>
+                
 
             </footer>    
         </>

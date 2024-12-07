@@ -3,9 +3,11 @@ footer{
     display: flex;
     justify-content: center;
     background-color:#FCF9E8 ;
-    max-height: 400px;
-    margin-top: 2000px;
+    height: 600px;
+    margin-top:100px;
+    align-items: center;
 }
+
 footer div{
     padding: 2vw 4%;
     white-space: nowrap;
@@ -33,5 +35,15 @@ ul li a:hover{
     justify-content: space-around;
     padding: 0;
     margin-top: 2vw;
+}
+.address{
+    line-height: 50px;
+    margin-top: 50px;
+}
+.service{
+    line-height: 50px;
+}
+.footerLogo{
+    line-height: 50px;
 }
 
