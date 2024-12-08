@@ -18,6 +18,7 @@ import News from './top/news'
 import Guidance from './top/guidance'
 import '../css/guidance.css'
 import Cooperate from './top/cooperate'
+import Lastinfo from './top/lastinfo'
 
 function App() {
 
@@ -39,7 +40,7 @@ function App() {
     <Guidance />
     <Cooperate />
      <Footer />
-     
+     <Lastinfo />
     </>
   )
 };

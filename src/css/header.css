@@ -84,4 +84,28 @@ ul li button{
     font-size: 12px;
 }
 
+@media screen and (max-width: 768px) {
+    .logo-text {
+        display: none;
+    }
+    .headIcon{
+        display: none;
+    }
+    .logo > h1 > img{
+        width: 80%;
+    }
+    nav > ul {
+        display: none;
+    }
+    .swiper-movebtn{
+        max-width: 420px;
+        align-items: center;
+        text-align: center;
+        margin-left: 38.9%;
+    }
+    .swiper-pagination{
+        display: none;
+    }
+}
+
 
