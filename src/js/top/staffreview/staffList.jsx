@@ -1,5 +1,5 @@
 import React from "react";
-import ReviewCard from "./staffCard";
+import ReviewCard from "./StaffCard";
 
 const ReviewList = ({ items }) => {
 

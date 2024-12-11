@@ -49,6 +49,7 @@ ul li button{
     font-size: 20px;
     white-space: nowrap;
 }
+
 .headIcon{
     display: flex;
     justify-content: space-between;
@@ -69,20 +70,65 @@ ul li button{
 }
 
 .navCategory{
-    display: flex;
+
+    display: flex ;
     justify-content: center;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     max-width: 1440px;
+    background-color: #EFEFEF;
     margin: 0 auto;
+    position: absolute;
+    z-index: 10;
+    border-radius: 1%;
+    
 }
+
 .navCategory > div > ul{
     display: flex;
     flex-direction: column;
+ 
 }
 
 .navCategory > div > ul > li > a{
     font-size: 12px;
 }
+
+.canCategory-old1{
+    display: grid;
+   width: 150px;
+   margin-left: 35%;
+    background-color: #EFEFEF;
+    text-align: left;
+    padding: 10px;
+    position: absolute;
+    z-index: 10;
+   
+}
+
+.canCategory-price1{
+    display: grid;
+    width: 210px;
+    background-color: #EFEFEF;
+    text-align: left;
+    margin-left: 41%;
+    padding: 10px;
+    position: absolute;
+    z-index: 10;
+}
+.menu-pricebutton:hover,
+.menu-diybutton:hover,
+.menu-iembutton:hover,
+.menu-storebutton:hover,
+.menu-newbutton:hover,
+.menu-oldbutton:hover
+
+{
+    color: #F08300;
+    border-bottom: 2px #F08300 solid;
+}
+
+
+
 
 @media screen and (max-width: 768px) {
     .logo-text {
@@ -107,5 +153,6 @@ ul li button{
         display: none;
     }
 }
+
 
 

@@ -1,5 +1,5 @@
 
-import '../../css/footer.css'
+import '../../css/Footer.css'
 import footerLogo from '../../assets/footer-logo.png'
 import blogIcon from '../../assets/footer-blogicon.png'
 import ytIcon from '../../assets/footer-yticon.png'

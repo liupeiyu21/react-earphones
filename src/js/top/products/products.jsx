@@ -1,6 +1,6 @@
 
 import React  from "react";
-import ItemList from "./itemList";
+import ItemList from "./ItemList";
 import '../../../css/products.css';
 
 

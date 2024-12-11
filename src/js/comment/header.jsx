@@ -4,45 +4,62 @@ import searchIcon from '../../assets/search-icon.png'
 import loginIcon from '../../assets/login-icon.png'
 import favoriteIcon from '../../assets/favorite-icon.png'
 import cardIcon from '../../assets/card-icon.png'
-import '../../css/header.css'
-
-
-
-
-
-
-
-
-
-
-
+import '../../css/Header.css'
+import { useState } from 'react'
+import { Link } from "react-router-dom"
 
 
 
 export default function Header() {
 
-  // const [menuBtn ,setMenuBtn]= useState(false);
+  const [ isOpen, setIsOpen ] = useState(false);
 
-  // const toggleMenu = () => {
-  //   setMenuBtn(!menuBtn);
-  // };
+  const toggleDropdown = () =>{
+      setIsOpen(!isOpen);
+  
+  
+  }
+  const [ isOld, setIsOld ] = useState(false);
+  const toggleOld = () => {
+    setIsOld(!isOld);
+  }
+
+  const [ isPrice, setIsPrice ] = useState(false);
+  const togglePrice = () => {
+    setIsPrice(!isPrice);
+  }
 
     return (
       <>
       <nav>
         <div className='logo'>        
           <h1>
-            <img src={logoTop} alt="サイトlogoの画像" />
+            <Link to="/"><img src={logoTop} alt="サイトlogoの画像" /></Link>
           </h1>
           <p className='logo-text'>世界中のイヤホン・ヘッドホンが試聴・買取・購入できる専門店</p>
         </div>
         <ul>
-          <li><button  className='menu-button'>新品</button></li>
-          <li><button>中古</button></li>
-          <li><button>買取</button></li>
-          <li><button>修理・自作</button></li>
-          <li><button>カスタムIEM</button></li>
-          <li><button>店舗一覧</button></li>
+          <li><button 
+          className='menu-newbutton'
+          onClick={toggleDropdown}
+          >新品</button></li>
+          <li><button
+          className='menu-oldbutton'
+          onClick={toggleOld}
+          >中古</button></li>
+          <li><button
+          className='menu-pricebutton'
+          onClick={togglePrice}
+          >買取</button></li>
+          <li><button
+          className='menu-diybutton'
+          >修理・自作</button></li>
+          <li><button
+          className='menu-iembutton'
+          >カスタムIEM</button></li>
+          <li><button
+          className='menu-storebutton'
+          >店舗一覧</button></li>
         </ul>
         <div className='headIcon'>
           <div className='searchIcon'>
@@ -65,7 +82,16 @@ export default function Header() {
       </nav>
 
 
-      <div className='navCategory' style={{display: 'none'}}>
+      <div className='navCategory'    
+     
+     style={{ 
+       
+         display: isOpen ? 'block flex' : 'none',
+      
+       
+      
+         transition: 'max-height 0.3s ease, opacity 0.3s ease', // アニメーション
+       }}>
         <div className='wireless'>
           <h3>ワイヤレス</h3>
           <ul>
@@ -186,6 +212,37 @@ export default function Header() {
             <li><a href="">アンプアクセサリ</a></li>
           </ul>
         </div>
+      </div>
+
+      <div className='canCategory-old'
+        style={{ 
+          display: isOld ? 'block' : 'none',
+        }}>
+          <ul className='canCategory-old1'>
+            <li><a href="#">中古ワイヤレス</a></li>
+            <li><a href="#">中古ヘッドホン</a></li>
+            <li><a href="#">中古アンプ</a></li>
+            <li><a href="#">中古スピーカー</a></li>
+            <li><a href="#">中古イヤホン</a></li>
+            <li><a href="#">中古プレイヤー</a></li>
+            <li><a href="#">中古ケーブル</a></li>
+            <li><a href="#">中古アクセサリ</a></li>
+          </ul>
+      </div>
+
+      <div className=' canCategory-price'
+        style={{
+          display: isPrice ? 'block' : 'none',
+        }}
+      >
+          <ul className='canCategory-price1'>
+            <li>
+              <Link to="/買取金額を調べる"> 買取金額を調べる</Link>
+            </li>
+            <li><a href="#">eイヤホンの買取サービス</a></li>
+            <li><a href="#">無料査定のお申し込み</a></li>
+            <li><a href="#">買取&amp;QA</a></li>
+          </ul>
       </div>
 
       </>

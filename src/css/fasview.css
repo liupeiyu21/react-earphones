@@ -2,6 +2,8 @@
 
 .swiper{
   margin-top: 40px;
+  position: relative;
+  z-index: 2;
 }
 
 .swiper-pagination{
@@ -38,7 +40,7 @@
 .swiper-movebtn{
   position: absolute;
   top: 36%;
-  z-index: 9999;
+  z-index: 3;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -46,3 +48,4 @@
 .swiper-slide{
   padding: 0 10px;
 }
+

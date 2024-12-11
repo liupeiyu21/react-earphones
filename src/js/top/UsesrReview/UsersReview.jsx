@@ -27,7 +27,7 @@ const usersItems = [
 
 ];
 
-const TopUsersReview = () => {
+const UsersReview = () => {
     return(
         <div className="users">
             <h2 className="users-so">総合レビュー</h2>
@@ -37,4 +37,4 @@ const TopUsersReview = () => {
     )
 }
 
-export default TopUsersReview;
+export default UsersReview;

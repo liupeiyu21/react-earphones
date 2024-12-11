@@ -1,7 +1,7 @@
 import React from "react";
 import TopRecommendationB from "../../assets/top-recommendation-b.png";
 import TopRecommendationS from "../../assets/top-recommendation-s.png"
-import '../../css/recommendation.css'
+import '../../css/Recommendation.css'
 
 function  Recommendation() {
 

@@ -1,7 +1,7 @@
 import React from "react";
-import "../../css/recentlychecked.css";
+import "../../css/Recentlychecked.css";
 import Recentlychecked from '../../assets/recentlychecked.png'
-import Banner from "./banner";
+import Banner from "./Banner";
 
 const products = [
   {
@@ -40,7 +40,7 @@ const products = [
 
 ];
 
-const RecentProducts = () => {
+const Recentlycheck = () => {
   return (
     <>
     <div className="recent-products-banner">
@@ -70,7 +70,7 @@ const RecentProducts = () => {
   );
 };
 
-export default RecentProducts;
+export default Recentlycheck;
 
 
 

@@ -5,13 +5,13 @@ import { Pagination } from "swiper/modules";
 
 
 import Tophighprice from '../../assets/top-highprice.png'
-import '../../css/highprice.css'
+import '../../css/HighPrice.css'
 import { SlideNextButton } from "./SlideNextButton";
 import { SlidePrevButton } from "./SlidePrevButton";
 const data = ["Slide 1", "Slide 2", "Slide 3", "Slide 4","Slide 5","Slide 6","Slide 7","Slide 8"] ;
 
 
-function HighProducts() {
+function HighPrice() {
   return (
     <>
     <div className="old-items">
@@ -50,7 +50,7 @@ function HighProducts() {
   );
 }
 
-export default HighProducts;
+export default HighPrice;
 
 
 
