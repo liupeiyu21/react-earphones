@@ -7,7 +7,7 @@ import TopGuidance5 from '../../assets/top-guidance5.png'
 import TopGuidance6 from '../../assets/top-guidance6.png'
 import TopGuidance7 from '../../assets/top-guidance7.png'
 import TopGuidance8 from '../../assets/top-guidance8.png'
-import '../../css/Guidance.css'
+import '../../topcss/Guidance.css'
 
 function Guidance() {
     return(

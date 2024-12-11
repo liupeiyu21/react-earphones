@@ -1,5 +1,5 @@
 import React from "react";
-import "../../css/Recentlychecked.css";
+import "../../topcss/Recentlychecked.css";
 import Recentlychecked from '../../assets/recentlychecked.png'
 import Banner from "./Banner";
 

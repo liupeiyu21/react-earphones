@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 
 import 'swiper/swiper-bundle.css'
-import '../../css/FasView.css'
+import '../../topcss/FasView.css'
 
 import Fasview from '../../assets/fasview-banner.png'
 import Fasviewpre from '../../assets/fasview-pre.png'

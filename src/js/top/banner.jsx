@@ -5,7 +5,7 @@ import topBanner4 from '../../assets/top-banner4.png'
 import topBanner5 from '../../assets/top-banner5.png'
 import topBanner6 from '../../assets/top-banner6.png'
 
-import '../../css/Banner.css'
+import '../../topcss/Banner.css'
 
 
 function Banner(){

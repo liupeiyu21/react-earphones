@@ -2,7 +2,7 @@
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
-import '../../css/ReadingItem.css'
+import '../../topcss/ReadingItem.css'
 import {SlidePrevButton} from "./SlidePrevButton"
 import { SlideNextButton } from "./SlideNextButton"
 

@@ -1,6 +1,6 @@
 import React from "react";
 import ReviewList from "./StaffList";
-import '../../../css/StaffReview.css'
+import '../../../topcss/StaffReview.css'
 const StaffReview = () => {
 
     const reviewItems = [

@@ -1,5 +1,5 @@
 import React from "react";
-import '../../css/News.css'
+import '../../topcss/News.css'
 function News(){
     return(
         <div className="news-content">

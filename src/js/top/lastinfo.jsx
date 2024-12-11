@@ -1,5 +1,5 @@
 import React from "react";
-import '../../css/Lastinfo.css'
+import '../../topcss/Lastinfo.css'
 
 function Lastinfo (){
     return(

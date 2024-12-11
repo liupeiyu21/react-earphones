@@ -1,7 +1,7 @@
 import React from "react";
 import TopCooperate from "../../assets/top-cooperate.png"
 
-import '../../css/Cooperate.css'
+import '../../topcss/Cooperate.css'
 function Cooperate() {
     return(
         <>
