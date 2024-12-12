@@ -6,7 +6,7 @@ import { Routes, Route} from "react-router-dom"
 
 import Top from './top/Top'
 import '../topcss/App.css'
-import '../topcss/guidance.css'
+import '../topcss/Guidance.css'
 
 import { MoneySearch } from './MoneySearch/MoneySearch'
 
