@@ -48,4 +48,19 @@
 .swiper-slide{
   padding: 0 10px;
 }
+.wireless > ul,
+.wiredear > ul,
+.wiredhead > ul,
+.gaming > ul,
+.player > ul,
+.amp-dac > ul,
+.cable > ul,
+.speaker > ul,
+.accessories > ul
+{
+  list-style-type: none;
+}
 
+.canCategory-price1{
+  list-style-type: none;
+}

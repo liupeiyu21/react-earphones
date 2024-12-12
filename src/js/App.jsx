@@ -9,6 +9,8 @@ import '../topcss/App.css'
 import '../topcss/Guidance.css'
 
 import { MoneySearch } from './MoneySearch/MoneySearch'
+import MoreInformation from "./MoneySearch/MoreInformation/MoreInformation"
+
 
 function App() {
 
@@ -19,6 +21,8 @@ function App() {
     <Routes>
       <Route path='/' element= { <Top /> } />
       <Route path="/買取金額を調べる" element= { <MoneySearch />} />
+        <Route path="/買取商品の詳細" element={ <MoreInformation />} />
+      
     </Routes>
     
    
