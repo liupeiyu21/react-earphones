@@ -7,12 +7,12 @@ import HighPrice from "./HighPrice";
 import StaffReview from "./StaffReview/StaffReview";
 import UsersReview from "./UsesrReview/UsersReview";
 import ReadingItem from "./ReadingItem";
-import Recommendation from "./recommendation";
-import News from "./news";
-import Guidance from "./guidance";
-import Cooperate from "./cooperate";
-import Footer from "../comment/footer";
-import Lastinfo from "./lastinfo";
+import Recommendation from "./Recommendation";
+import News from "./News";
+import Guidance from "./Guidance";
+import Cooperate from "./Cooperate";
+import Footer from "../comment/Footer";
+import Lastinfo from "./Lastinfo";
 
 function Top() {
 
