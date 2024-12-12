@@ -4,7 +4,7 @@
 import { Routes, Route} from "react-router-dom"
 
 
-import Top from './top/top'
+import Top from './top/Top'
 import '../topcss/App.css'
 import '../topcss/guidance.css'
 

@@ -30,7 +30,7 @@ h1{
 .logo-text{
     white-space: nowrap;
 }
-ul{
+nav > ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
