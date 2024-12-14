@@ -7,8 +7,13 @@
     color: #F08300;
     text-align: left;
     font-weight: bold;
+    white-space: nowrap;
+    padding-bottom: 30px;
 }
 .ca-item{
     text-align: left;
-    line-height: 2;
+    line-height: 4;
+}
+.product-search{
+    margin-left: 170px;
 }

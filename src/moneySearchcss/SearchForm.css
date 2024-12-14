@@ -3,6 +3,54 @@
     flex-direction: column;
     gap: 30px;
     border: 2px black solid;
+    width: 853px;
+    margin-left: 150px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
 }
+.form-name{
+    text-align: left;
+    margin-left: 150px;
+}
+.inputGroup{
+    margin: 20px auto;
+}
+.form-title{
+    margin-right: 50px;
+}
+.input-keyword{
+    width: 350px;
+    padding: 10px;
+}
+.select-keyword{
+    width: 300px;
+    padding: 10px;
+}
+.form-title2{
+    margin-right: 50px;
+}
+.select-keyword{
+    margin-right: 80px;
+}
+.brand-keyword{
+    width: 250px;
+    padding: 10px;
+    margin-right: 120px;
+}
+.submit{
+    width: 300px;
+    padding: 12px;
+    background-color: #F08300;
+    font-size: 24px;
+    color: #fff;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+.handleReset{
+   margin-left: 100px;
+   margin-top: 20px;
+}
+
 
 

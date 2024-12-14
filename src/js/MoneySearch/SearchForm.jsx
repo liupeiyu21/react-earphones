@@ -17,12 +17,14 @@ function SearchForm() {
 
     return(
         <>
+            <h2 className="form-name">買取検索</h2>
             <form className="formContainer">
                 
-            
+                
                 <div className="inputGroup">
-                    <label>キーワード</label>
+                    <label className="form-title">キーワード：</label>
                     <input 
+                    className="input-keyword"
                     type="text" 
                     placeholder="キーワードを入力する"
                     value={keyword}
@@ -30,9 +32,10 @@ function SearchForm() {
                     />
                 </div>
 
-                <div className="inputGroup">
-                    <label >カテゴリー</label>
+                <div className="inputGroup2">
+                    <label className="form-title2 ">カテゴリー：</label>
                     <select 
+                    className="select-keyword"
                     value={category}
                     onChange={(e) => setCategory(e.target.value)}
                     >
@@ -44,10 +47,11 @@ function SearchForm() {
                 </div>
 
                 <div className="inputGroup">
-                    <label>ブランド</label>
+                    <label className="form-title">ブランド：</label>
                     <select 
+                    className="brand-keyword"
                     value={brand}
-                    onChange={(e) => setCategory(e.target.value)}
+                    onChange={(e) => setBrand(e.target.value)}
                     >
                         <option value="">選択してください</option>
                         <option value="airpods">Airpods</option>
@@ -58,11 +62,15 @@ function SearchForm() {
 
 
                 <div>
-                    <button onClick={handleReset}>
-                        条件をリセット
-                    </button>
-                    <button type="submit">
+                   
+                    <button type="submit" className="submit">
                         検索
+                    </button>
+                    <button 
+                    onClick={handleReset}
+                    className="handleReset"
+                    >
+                        <small>条件をリセット</small>
                     </button>
                 </div>
             </form>

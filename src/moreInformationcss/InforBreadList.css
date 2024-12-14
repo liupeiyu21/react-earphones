@@ -1,0 +1,6 @@
+
+.inforbreadlist{
+    display: flex;
+    flex-direction: flex-start;
+    list-style-type: none;
+}

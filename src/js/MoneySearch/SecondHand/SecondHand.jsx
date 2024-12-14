@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import SecondList from "./SecondList";
+import '../../../moneySearchcss/SecondHand.css'
 
 const SecondHand = () => {
     const secondItems = [
@@ -25,7 +26,7 @@ const SecondHand = () => {
     return(
 
         <div className="second">
-           <Link to="/買取商品の詳細"> <SecondList items={secondItems} /> </Link>
+           <Link to="/買取商品の詳細" className="second-item-line"> <SecondList items={secondItems} /> </Link>
         </div>
     )
 }

@@ -1,0 +1,8 @@
+.second-items{
+    display: flex;
+    justify-content: center;
+}
+.product-items{
+    display: flex;
+    flex-direction: column;
+}

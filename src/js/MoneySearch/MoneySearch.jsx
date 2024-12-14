@@ -9,6 +9,8 @@ import BrandsSearch from "./BrandSrarch"
 import SecondHand from "./SecondHand/SecondHand"
 import Footer from "../comment/Footer"
 
+import '../../moneySearchcss/MoneySearch.css'
+
 import MoreInformation from "./MoreInformation/MoreInformation"
 export  const MoneySearch = () =>{
     return(
@@ -16,10 +18,16 @@ export  const MoneySearch = () =>{
        
         <Header />
         <BreadList />
-        <MoneyCategory />
-        <SearchForm />
-        <BrandsSearch />
-        <SecondHand />
+        <div className="second-items">
+            <div className="product-search">
+                <MoneyCategory />
+                <BrandsSearch />
+            </div>
+            <div className="second-product">
+                <SearchForm />
+                <SecondHand />
+            </div> 
+        </div>
         <Footer />
         </>
     )

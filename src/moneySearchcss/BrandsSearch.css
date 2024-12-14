@@ -1,0 +1,10 @@
+.brand-search > h3 {
+    color: #F08300;
+    border-bottom: 2px black solid;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.brand-search{
+    text-align: left;
+    margin-top: 100px;
+}

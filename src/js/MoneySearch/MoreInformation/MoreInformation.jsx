@@ -1,10 +1,12 @@
 import Header from "../../comment/Header";
+import InforBreadList from "./InforBreadList";
+
 
 function MoreInformation () {
     return(
         <>
         <Header />
-        <h2>詳しい商品</h2>
+        <InforBreadList />
         </>
     )
 }
