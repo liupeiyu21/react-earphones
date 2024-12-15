@@ -1,4 +1,4 @@
-.second-list{
+.second-item-list{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr ;
@@ -9,6 +9,11 @@
     margin-right: 170px;
     gap: 60px; 
 }
+.second-form{
+    text-align: left;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
 .second-item-info{
     text-align: left;
 }
@@ -17,11 +22,13 @@
 }
 .second-brand{
     color: #707070;
+    text-align: left;
 }
 .second-name{
     color: #000000;
     font-weight: bold;
     margin-bottom: 20px;
+    text-align: left;
 }
 .second-status{
     background-color: #F08300;
@@ -35,4 +42,20 @@
     color: #e53935;
     font-weight: bold;
     margin-top: 10px;
+}
+.pape{
+    margin-bottom: 50px;
+}
+.pape > span{
+    border: 1px black solid;
+    padding: 10px;
+    margin-right: 10px;
+}
+.pape2{
+    margin-top: 50px;
+}
+.pape2 > span{
+    border: 1px black solid;
+    padding: 10px;
+    margin-right: 10px;
 }
