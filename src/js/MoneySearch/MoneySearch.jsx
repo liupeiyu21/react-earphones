@@ -10,7 +10,6 @@ import SecondHand from "./SecondHand/SecondHand"
 import Footer from "../comment/Footer"
 
 import '../../moneySearchcss/MoneySearch.css'
-
 import MoreInformation from "./MoreInformation/MoreInformation"
 export  const MoneySearch = () =>{
     return(
@@ -28,6 +27,7 @@ export  const MoneySearch = () =>{
                 <SecondHand />
             </div> 
         </div>
+       
         <Footer />
         </>
     )

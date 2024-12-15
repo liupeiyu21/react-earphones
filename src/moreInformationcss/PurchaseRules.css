@@ -1,0 +1,48 @@
+.togglestep{
+    background-color: #F08300;
+    max-width: 1250px;
+    text-align: center;
+    margin-left: 100px;
+    padding: 30px;
+    margin-top: 100px;
+    color: #fff;
+    font-size: 28px
+}
+.togglesteps{
+    margin-left: 20px;
+}
+.steps-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 25px;
+   
+}
+.step-card{
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ 
+}
+
+.step-number {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 50px;
+  }
+  
+  .step-title {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .step-description {
+    margin-top: 5px;
+    color: #555;
+    padding: 20px 10px 50px 10px;
+    text-align: left;
+    margin-left: 100px;
+  }

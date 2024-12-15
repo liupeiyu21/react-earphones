@@ -5,7 +5,7 @@ function InforBreadList () {
     return(
         <>
             <ul className="inforbreadlist">
-                <li>Top</li>
+                <li><Link to="/">Top</Link></li>
                 <li>&gt;</li>
                 <li><Link to="/買取金額を調べる">買取金額を調べる</Link></li>
                 <li>&gt;</li>

@@ -1,0 +1,47 @@
+.ear-information{
+    display: flex;
+    justify-content: space-between;  
+    
+}
+.ear-info-img{
+    margin: 100px 0 0 100px;
+}
+.ear-info-imgs {
+    display: flex;
+    justify-content: space-between;
+}
+.ear-info{
+    margin-top: 100px;
+    margin-right: 100px;
+    text-align: left;
+}
+.ear-info > h3{
+    font-size: 28px;
+}
+.ear-info > .info-best-price{
+    font-size: 32px;
+    color: #DE5D50;
+    
+    margin-top: 50px;
+}
+.ear-info > .infor-price{
+    font-size: 72px;
+    font-weight: bold;
+    color: #DE5D50;
+}
+.ear-info > .infor-price > span{
+    font-size: 28px;
+}
+
+.infor-small{
+    text-align: right;
+    margin-right: 200px;
+}
+.ear-info > button {
+    font-size: 48px;
+    padding: 20px 150px;
+    margin-top: 80px;
+    color: #fff;
+    background-color:#F08300 ;
+    letter-spacing: 5px;
+}

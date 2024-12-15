@@ -13,7 +13,7 @@ const UsersCard = ( {item} ) => {
                
                 <p className="users-brand">{item.brand}</p>
                 <p className="users-title">{item.title}</p>
-                <p className="users-description">{item.description}</p>
+                <p className="user-description">{item.description}</p>
                 <p className="users-name">{item.usersName}</p>
             </div>
         </div>
