@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../comment/Header";
 import { FasView } from "./FasView";
-import Recentlycheck from "./Recentlycheck";
+// import Recentlycheck from "./Recentlycheck";
 import Products from "./Products/Products";
 import HighPrice from "./HighPrice";
 import StaffReview from "./StaffReview/StaffReview";
@@ -13,6 +13,9 @@ import Guidance from "./Guidance";
 import Cooperate from "./Cooperate";
 import Footer from "../comment/Footer";
 import Lastinfo from "./Lastinfo";
+import '../../topcss/Top.css'
+import Banner from "./Banner";
+import RecentlySwiper from "./RecentlySwiper";
 
 function Top() {
 
@@ -20,9 +23,12 @@ function Top() {
         <>
         <Header />
         <FasView />
-        <div className="repr">
-            <Recentlycheck />
-            <Products />
+        <div className="abn">
+        <Banner />
+                <div>
+                <RecentlySwiper />
+                <Products />
+                </div>
         </div>
         <HighPrice />
         <StaffReview />
@@ -32,6 +38,7 @@ function Top() {
         <News />
         <Guidance />
         <Cooperate />
+        
         <Footer />
         <Lastinfo />
         </>

@@ -1,3 +1,6 @@
+.container{
+  margin-top: 100px;
+}
 
 .item-list{
     display: grid;
@@ -6,19 +9,23 @@
     
     text-align: center;
     height: 100%;
-    margin-left: 445px;
+    margin-left: 135px;
     margin-right: 170px;
     gap: 60px;
 }
 .heading{
     display: flex;
     justify-content: space-around;
-    margin:0 0 100px 378px;  
-    color: #F08300;
+    margin:0 0 100px 78px;  
     margin-right: 100px;
 }
 .heading > h2{
     font-size: 28px;
+}
+.heading > h2:hover{
+  color: #F08300;
+  border-bottom: 1px  #F08300 solid;
+ 
 }
 
 .item-card{
@@ -67,7 +74,13 @@
     color: #F08300;
     padding: 15px  50px ;
     background-color: #fff;
-    margin: 50px 0 50px 20%;
+    margin: 50px 0 50px 0;
+  }
+  .statusUsed{
+    background-color: #F08300;;
+  }
+  .statusRanking{
+    background-color: #e53935;
   }
 
 

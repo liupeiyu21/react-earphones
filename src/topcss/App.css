@@ -12,11 +12,5 @@ html body {
     margin: 0 auto;
 }
 
-.repr{
-    position: relative;
-}
-.container{
-    position: absolute;
-    top: 650px;
-}
+
 

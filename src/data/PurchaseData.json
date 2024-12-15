@@ -1,0 +1,12 @@
+{
+    "Purchase":{
+        "Recommendation": [
+            {
+                "brand": "ブランド名", 
+                "name": "商品の名前", 
+                "status": "買取上限金額",
+                "price": "100000"
+            }
+        ]
+    }
+}

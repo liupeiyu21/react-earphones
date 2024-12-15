@@ -1,7 +1,7 @@
 import React from "react";
 import "../../topcss/Recentlychecked.css";
 import Recentlychecked from '../../assets/recentlychecked.png'
-import Banner from "./Banner";
+
 
 const products = [
   {
@@ -44,7 +44,7 @@ const Recentlycheck = () => {
   return (
     <>
     <div className="recent-products-banner">
-        <Banner />
+     
         <div className="recent-products">
           <h2 className="title">最近チェックした商品</h2>
          <div className="product-list">

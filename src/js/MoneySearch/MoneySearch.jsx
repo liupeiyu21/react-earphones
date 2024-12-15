@@ -11,6 +11,7 @@ import Footer from "../comment/Footer"
 
 import '../../moneySearchcss/MoneySearch.css'
 import MoreInformation from "./MoreInformation/MoreInformation"
+import RecentlySwiper from "../top/RecentlySwiper"
 export  const MoneySearch = () =>{
     return(
         <>
@@ -27,7 +28,9 @@ export  const MoneySearch = () =>{
                 <SecondHand />
             </div> 
         </div>
-       
+        <div className="recen">
+        <RecentlySwiper />
+        </div>
         <Footer />
         </>
     )
