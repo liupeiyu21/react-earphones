@@ -59,12 +59,14 @@
     padding-top: 10px;
     color: #707070;
     margin-left: 3px;
+    font-size: 16px;
 }
 .review-name{
     text-align: left;
     padding-top: 5px;
     font-weight: bold;
     margin-left: 3px;
+    font-size: 18px;
 }
 .review-category{
     text-align: center;
@@ -79,6 +81,7 @@
     text-align: left;
     margin-left: 3px;
     margin-top: 30px;
+    font-size: 20px;
 }
 .review-button{
     font-size: 28px;

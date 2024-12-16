@@ -9,6 +9,12 @@
     margin-top: 20px;
     margin-bottom: 100px;
 }
+.second-label{
+    font-size: 24px;
+}
+.second-select{
+    font-size: 20px;
+}
 .form-name{
     text-align: left;
     margin-left: 150px;
@@ -18,10 +24,12 @@
 }
 .form-title{
     margin-right: 50px;
+    font-size: 24px;
 }
 .input-keyword{
     width: 350px;
     padding: 10px;
+    font-size: 20px;
 }
 .select-keyword{
     width: 300px;
@@ -29,28 +37,40 @@
 }
 .form-title2{
     margin-right: 50px;
+    font-size: 24px;
 }
 .select-keyword{
     margin-right: 80px;
+    font-size: 20px;
 }
 .brand-keyword{
     width: 250px;
     padding: 10px;
     margin-right: 120px;
+    font-size: 20px;
 }
 .submit{
-    width: 300px;
+    width: 350px;
     padding: 12px;
     background-color: #F08300;
     font-size: 24px;
     color: #fff;
-    margin-left: 150px;
+    margin-left: 300px;
     margin-bottom: 20px;
 }
 .handleReset{
-   margin-left: 100px;
+   margin-left: 55px;
    margin-top: 20px;
 }
+.second-brand{
+    font-size: 16px;
+}
+.second-name{
+    font-size: 18px;
+}
 
+.second-price{
+    font-size: 20px;
+}
 
 

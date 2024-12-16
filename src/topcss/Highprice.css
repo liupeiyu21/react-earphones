@@ -20,12 +20,14 @@
 .old-brand{
     text-align: left;
     color: #707070;
+    font-size: 16px;
 }
 .old-name{
     text-align: left;
     color: #000000;
     font-weight: bold;
     margin-bottom: 20px;
+    font-size: 18px;
 
 }
 .old-status{
@@ -41,6 +43,7 @@
     color: #e53935;
     font-weight: bold;
     margin-top: 10px;
+    font-size: 20px;
 }
 .old-btn{
     font-size: 28px;
@@ -48,6 +51,11 @@
     background-color: #fff;
     margin: 50px 0 50px 100px;
     color: #F08300;
+}
+.old-btn:hover{
+    background-color: #F08300;
+    color: #fff;
+    cursor: pointer;
 }
 
 

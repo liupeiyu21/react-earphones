@@ -52,7 +52,7 @@ const Products = () => {
                 {productList.map((product, index) => (
                     
                         <div className="item-card" key={index}>
-                            <img src={NewPr} alt={1} />
+                            <img src={product.img} alt={1} />
                             <div className="item-info">
                                 <p className="products-brand">{product.brand}</p>
                                 <p className="products-name">{product.name}</p>

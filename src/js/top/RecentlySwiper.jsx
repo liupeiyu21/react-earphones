@@ -15,10 +15,9 @@ function RecentlySwiper (){
         <div className="recentlycheck">
             <h2>最近チェックした商品</h2>
             <Swiper
-                spaceBetween={0}
+               
                 slidesPerView={4}
-                onSlideChange={() => console.log("slide change")}
-                onSwiper={(swiper) => console.log(swiper)}
+              
                 modules={[Pagination]}
                 pagination={{
                   type: "fraction",

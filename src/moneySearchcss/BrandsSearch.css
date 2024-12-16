@@ -3,10 +3,11 @@
     border-bottom: 2px black solid;
     font-weight: bold;
     padding-bottom: 30px;
+    font-size: 24px;
     
 }
 .brand-search > h4 {
-    font-size: 16px;
+    font-size:20px;
 }
 .brand-search{
     text-align: left;
@@ -20,5 +21,5 @@
 }
 .brand-search-list > h5{
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 20px;
 }

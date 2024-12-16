@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 // import SecondList from "./SecondList";
 import '../../../moneySearchcss/SecondHand.css'
-import Subsen from '../../../assets/sub-second-hand.png'
+// import Subsen from '../../../assets/sub-second-hand.png'
 import { useState } from "react";
 
 import PurchaseData from '../../../data/PurchaseData.json'
@@ -26,10 +26,10 @@ const SecondHand = () => {
         <>
             <div className="second-container">
               <form className="second-form">
-                <label htmlFor="second">並べる替え：</label>
+                <label htmlFor="second" className="second-label">並べる替え：</label>
                 <select 
-                name="" 
                 id="second"
+                className="second-select"
                 onChange={(e) => setSecondHand(e.target.value)}
                 >
                     <option value="Recommendation">おすすめ</option>
@@ -46,7 +46,7 @@ const SecondHand = () => {
               
                 {secondList.map((seconds, index) => (
                     <div className="second-card" key={index}>
-                        <Link to="/買取商品の詳細"><img src={Subsen} alt="2" /></Link>
+                        <Link to="/買取商品の詳細"><img src={seconds.img} alt="2" /></Link>
                         <div className="second-infor">
                         <p className="second-brand">{seconds.brand}</p>
                         <p className="second-name">{seconds.name}</p>

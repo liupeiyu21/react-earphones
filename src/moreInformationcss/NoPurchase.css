@@ -33,7 +33,7 @@
 }
 .nosell-title{
     margin-top: 10px;
-    font-size: 1.2rem;
+    font-size: 24px;
 }
 .nosell-description{
     margin-top: 5px;
@@ -41,4 +41,11 @@
     padding: 20px 10px 50px 10px;
     text-align: left;
     margin-left: 100px;
+    
+}
+
+.nosell-description1,
+.nosell-description2,
+.nosell-description3 {
+    font-size: 20px;
 }

@@ -24,7 +24,7 @@
 }
 .heading > h2:hover{
   color: #F08300;
-  border-bottom: 1px  #F08300 solid;
+  box-shadow: 0 5px 0 0 #F08300;
  
 }
 
@@ -48,6 +48,7 @@
    */
   .products-brand {
     color: #707070;
+    font-size: 16px;
     
     margin-bottom: 5px;
   }
@@ -56,6 +57,7 @@
     color: #000000;
     font-weight: bold;
     margin-bottom: 10px;
+    font-size: 18px;
   }
   .products-status{
     background-color:#367DA9 ;
@@ -67,6 +69,7 @@
   .products-price {
     color: #e53935;
     font-weight: bold;
+    font-size: 20px;
   }
   .linkbtn{
     font-size: 28px;
