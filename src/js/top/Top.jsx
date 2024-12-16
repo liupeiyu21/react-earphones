@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../comment/Header";
+import Header from "../comment/Header.jsx";
 import { FasView } from "./FasView";
 // import Recentlycheck from "./Recentlycheck";
 import Products from "./Products/Products";
@@ -37,8 +37,7 @@ function Top() {
         <Recommendation />
         <News />
         <Guidance />
-        <Cooperate />
-        
+        <Cooperate />       
         <Footer />
         <Lastinfo />
         </>

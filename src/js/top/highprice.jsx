@@ -7,6 +7,7 @@ import Tophighprice from '../../assets/top-highprice.png'
 import '../../topcss/HighPrice.css'
 import { SlideNextButton } from "./SlideNextButton";
 import { SlidePrevButton } from "./SlidePrevButton";
+import { Link } from "react-router-dom";
 const data = ["Slide 1", "Slide 2", "Slide 3", "Slide 4","Slide 5","Slide 6","Slide 7","Slide 8"] ;
 
 
@@ -42,7 +43,7 @@ function HighPrice() {
         </div>
       </Swiper>
       
-        <button className="old-btn">売れる価格をチェックする ＞</button>
+       <Link to="/買取金額を調べる"> <button className="old-btn">売れる価格をチェックする ＞</button></Link>
       
      </div>
     </>
