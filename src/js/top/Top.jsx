@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../comment/Header.jsx";
+import Header from "../comment/Header";
 import { FasView } from "./FasView";
 // import Recentlycheck from "./Recentlycheck";
 import Products from "./Products/Products";

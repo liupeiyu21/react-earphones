@@ -1,9 +1,9 @@
 
-import logoTop from '../../assets/logoTop.png'
-import searchIcon from '../../assets/search-icon.png'
-import loginIcon from '../../assets/login-icon.png'
-import favoriteIcon from '../../assets/favorite-icon.png'
-import cardIcon from '../../assets/card-icon.png'
+import LogoTop from '../../assets/LogoTop.png'
+import SearchIcon from '../../assets/Search-icon.png'
+import LoginIcon from '../../assets/Login-icon.png'
+import FavoriteIcon from '../../assets/Favorite-icon.png'
+import CardIcon from '../../assets/Card-icon.png'
 import '../../topcss/Header.css'
 import { useState } from 'react'
 import { Link } from "react-router-dom"
@@ -34,7 +34,7 @@ export default function Header() {
       <nav>
         <div className='logo'>        
           <h1>
-            <Link to="/"><img src={logoTop} alt="サイトlogoの画像" /></Link>
+            <Link to="/"><img src={LogoTop} alt="サイトlogoの画像" /></Link>
           </h1>
           <p className='logo-text'>世界中のイヤホン・ヘッドホンが試聴・買取・購入できる専門店</p>
         </div>
@@ -63,19 +63,19 @@ export default function Header() {
         </ul>
         <div className='headIcon'>
           <div className='searchIcon'>
-            <img src={searchIcon} alt="探すアイコン" />
+            <img src={SearchIcon} alt="探すアイコン" />
             <p>検索</p>
           </div>
           <div className='loginIcon'>
-            <img src={loginIcon} alt="ログインのアイコン" />
+            <img src={LoginIcon} alt="ログインのアイコン" />
             <p>ログイン</p>
           </div>
           <div className='favoriteIcon'> 
-            <img src={favoriteIcon} alt="お気に入りのアイコン" />
+            <img src={FavoriteIcon} alt="お気に入りのアイコン" />
             <p>お気に入り</p>
          </div>
          <div className='cardIcon'>
-         <img src={cardIcon} alt="カードのアイコン" />
+         <img src={CardIcon} alt="カードのアイコン" />
          <p>カード</p>
          </div>
         </div>
