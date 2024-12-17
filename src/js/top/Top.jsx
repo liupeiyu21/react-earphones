@@ -24,20 +24,21 @@ function Top() {
         <Header />
         <FasView />
         <div className="abn">
-        <Banner />
-                <div>
+            <Banner />
+            <div className="vbn">
                 <RecentlySwiper />
                 <Products />
-                </div>
+                <HighPrice />
+                <StaffReview />
+                <UsersReview />
+                <ReadingItem />
+                <Recommendation />
+                <News />
+                <Guidance />
+                <Cooperate />
+            </div>
         </div>
-        <HighPrice />
-        <StaffReview />
-        <UsersReview />
-        <ReadingItem />
-        <Recommendation />
-        <News />
-        <Guidance />
-        <Cooperate />       
+   
         <Footer />
         <Lastinfo />
         </>

@@ -3,14 +3,10 @@
 }
 
 .item-list{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr ;
-    
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     height: 100%;
-    margin-left: 135px;
-    margin-right: 170px;
     gap: 60px;
 }
 .heading{
@@ -29,8 +25,9 @@
 }
 
 .item-card{
-    width: 168px;
-    height: 280px;
+    width: 20%;
+    /* margin: 0 2%; */
+    height: auto;
 }
 .item-card > img{
     width: 100%;
@@ -38,8 +35,6 @@
 }
 .item-card > .item-info{
     text-align: left;
-    height: 300px;
-    width: 300px;
 }
 
 /* .item-info {

@@ -6,3 +6,13 @@
     display: flex;
     flex-direction: column;
 }
+.second-product{
+    margin-left: 130px;
+    width: 65vw;
+    min-width: 800px;
+}
+.money{
+    display: flex;
+    flex-direction: column;
+    
+}

@@ -36,12 +36,15 @@ function NoPurchase () {
     }
     return(
         <>
-            <div onClick={toggleSell}>
-                <h2 className="togglesell">
+            <div >
+                <h2 
+                className="togglesell"
+                onClick={toggleSell}
+                >
                     買取不可の基準について
                      <span className="togglesells"><img src={sellOpen ? Down : Up} alt="toggle icon" /></span> 
                 </h2>
-            </div>
+            
 
         
             {sellOpen && (
@@ -58,7 +61,7 @@ function NoPurchase () {
                 ))}
                </div>
             )}
- 
+        </div>
         </>
     )
 

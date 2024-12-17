@@ -34,7 +34,7 @@ export default function Header() {
       <nav>
         <div className='logo'>        
           <h1>
-            <Link to="/"><img src={LogoTop} alt="サイトlogoの画像" /></Link>
+            <Link to="/"><img className='logo-img' src={LogoTop} alt="サイトlogoの画像" /></Link>
           </h1>
           <p className='logo-text'>世界中のイヤホン・ヘッドホンが試聴・買取・購入できる専門店</p>
         </div>

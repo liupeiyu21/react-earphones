@@ -1,4 +1,11 @@
 
 .abn{
     display: flex;
+    position: relative;
+    justify-content: center;
+}
+.abn .vbn{
+    margin-left: 130px;
+    width: 65vw;
+    min-width: 800px;
 }

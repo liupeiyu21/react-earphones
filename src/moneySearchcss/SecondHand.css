@@ -1,13 +1,25 @@
 .second-item-list{
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr ;
-    
+    grid-template-rows: 1fr 1fr 1fr 1fr ; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    gap: 60px;
+
+
     text-align: center;
     height: 100%;
-    margin-left: 150px;
-    margin-right: 170px;
+    /* margin-left: 150px; */
+    /* margin-right: 170px; */
     gap: 60px; 
+}
+.second-card{
+    width: 20%;
+}
+.second-card img{
+    width: 100%;
 }
 .second-form{
     text-align: left;

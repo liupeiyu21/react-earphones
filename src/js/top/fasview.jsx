@@ -15,14 +15,20 @@ export const FasView = () => {
         <>
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
+          // centeredSlides={true}
           breakpoints={{
-            768: {
-              spaceBetween: 30,
-               slidesPerView:5,
-            },
-            0: {
-              spaceBetween: 10,
+            640: {
               slidesPerView:1,
+              spaceBetween:10,
+              
+            },
+            768: {
+              slidesPerView:3,
+              spaceBetween: 20,  
+            },
+            1024:{
+              slidesPerView:5,
+              spaceBetween:20,
             }
           }}
        

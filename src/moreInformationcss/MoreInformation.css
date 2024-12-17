@@ -1,0 +1,6 @@
+.more{
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+    margin: 0 auto;
+}

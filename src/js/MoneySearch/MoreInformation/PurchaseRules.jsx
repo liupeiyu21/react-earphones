@@ -38,14 +38,17 @@ function PurchaseRules () {
     }
     return(
         <>
-      <div onClick={toggleStep}>
-        <h2 className="togglestep">
+    <div className="rules">
+        <h2 
+        className="togglestep"
+        onClick={toggleStep}
+        >
           査定の手順について 
           <span className="togglesteps">
           <img src={stepOpen ? Down : Up} alt="toggle icon" />
             </span>
         </h2>
-      </div>
+      
 
       {stepOpen && (
         <div className="steps-grid">
@@ -62,7 +65,7 @@ function PurchaseRules () {
         </div>
       )}
 
-    
+    </div>  
         </>
     )
 }

@@ -4,3 +4,10 @@
     justify-content: flex-start;
     list-style-type: none;
 }
+.breadlist  {
+    padding: 0;
+    margin-left: 12%;
+}
+.breadlist > li {
+    padding-right: 20px;
+}

@@ -15,9 +15,24 @@ function RecentlySwiper (){
         <div className="recentlycheck">
             <h2>最近チェックした商品</h2>
             <Swiper
+                   breakpoints={{
+                    640: {
+                      slidesPerView:2,
+                      spaceBetween:50,
+                
+                    },
+                    768: {
+                      slidesPerView:3,
+                      spaceBetween: 20,  
+                    },
+                    1024:{
+                      slidesPerView:4,
+                      spaceBetween:20,
+                    }
+                  }}
                
-                slidesPerView={4}
               
+                
                 modules={[Pagination]}
                 pagination={{
                   type: "fraction",

@@ -1,13 +1,16 @@
 
 .users-list{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 40px;
     margin-top: 50px;
 }
 .users{
-    margin-left: 440px;
-    margin-right: 140px;
+    /* margin-left: 440px; */
+    /* margin-right: 140px; */
+}
+.users-card{
+    width: 30%;
 }
 .users-card > img {
     width: 100%;

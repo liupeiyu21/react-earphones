@@ -1,13 +1,14 @@
 .news-content{
-    width: 860px;
-    margin-left: 430px;
+
+    /* margin-left: 430px; */
     border: 4px #707070 solid;
     display: flex;
     justify-content: center;
+    margin-top: 100px;
    
 }
 .news{
-    
+    width: 50%;
     padding-bottom: 5px;
 }
 .news > p{

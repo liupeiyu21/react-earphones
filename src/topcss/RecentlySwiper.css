@@ -1,14 +1,14 @@
 .recentlycheck{
     
-    margin-left: 105px;
+    /* margin-left: 105px; */
     margin-top: 100px;
-    width: 852px;
+    /* width: 852px; */
 }
 
 .recently-check-btn{
     position: absolute;
     z-index: 100000;
-    top: 20%;
+    top: 30%;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -45,5 +45,25 @@
     color: #e53935;
     font-weight: bold;
     text-align: left;
-    font-size: 20px;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px){
+    .recentlycheck{
+        margin: 0;
+    }
+    .recentlycheck > h2 {
+        font-size: 20px;
+        width: 45%;
+    }
+   
+    .recently-check-btn{
+        width: 45%;
+    }
+  
+    .recentlycheck .swiper-slide{
+        width: 168px;
+        padding: 0;
+    }
+   
 }

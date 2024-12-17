@@ -29,6 +29,8 @@ const Products = () => {
 
     const productList = ProductsData.Products[selectProduct];
 
+    const [ activeTab, setActiveTab ] = useState("New");
+    const active = ProductsData.Products[activeTab];
 
  
     return(
@@ -37,6 +39,8 @@ const Products = () => {
                     <h2
                         className={selectProduct  ===  "New" ? "active" : ""}
                         onClick={() => setselectProduct("New")}
+
+                        
                     >新着アイテム</h2>
                     <h2
                         className={selectProduct === "Old" ? "active" : ""}
