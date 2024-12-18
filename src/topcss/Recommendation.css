@@ -43,3 +43,9 @@
 .recom > h2{
     margin-bottom: 50px;
 }
+
+@media screen and (max-width: 600px) {
+    .recom{
+        display: none;
+    }
+}

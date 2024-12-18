@@ -1,5 +1,11 @@
 
 
+
+
+
+
+
+
 .review-list{
     display: flex;
     justify-content: space-between;
@@ -93,4 +99,10 @@
     padding: 15px  50px ;
     background-color: #fff;
     margin-top: 50px;
+}
+
+@media screen and ( max-width: 600px ) {
+   .staddrev{
+    display: none;
+   }
 }

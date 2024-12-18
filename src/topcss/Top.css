@@ -7,5 +7,111 @@
 .abn .vbn{
     margin-left: 130px;
     width: 65vw;
-    min-width: 800px;
+    /* min-width: 800px; */
+}
+.sp-link-img{
+    display: none;
+}
+.hamburger-menu{
+    display: none;
+}
+.sp-form{
+    display: none;
+}
+.sp-store{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .abn .vbn{
+        margin-left: 0;
+        width: 100%;  
+    }
+ 
+
+
+
+    /* headerのnavの部分です */
+
+    /* スマホ上部の画像link「新着、中古、買取」 */
+    nav > ul {
+        display: none;
+    }
+
+
+
+    .sp-link-img{
+        display: block;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        
+    }
+    .sp-link-img img{
+        width: 100%;
+    }
+    .sp-link-img p{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+    .swiper-slide{
+        padding-left: 0;
+    }
+
+
+    /* 頭の検索のfrom */
+    form{
+        display: block;
+    }
+    .sp-form{
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+    .sp-search > select{
+        padding: 10px ;
+        border-radius: 5px 0 0 5px;
+        
+        width: 100%;
+        color: #fff;
+        background-color: #707070;;
+    }
+    .sp-input > input{
+        padding: 10px 35vw 10px 0;
+        border-radius: 0 5px 5px 0; 
+    }
+    .sp-store{
+        display: block;
+    }
+    .sp-store{
+        display: flex;
+        justify-content: space-between;
+        background-color: #FCF9EB;
+        padding: 20px;
+    }
+   
+    .sp-store > p{
+        font-size: 14px;
+    }
+    .swiper{
+        margin-top: 5px;
+    }
+
+    /* 最近チェックの商品 swiperで表示される*/
+
+
+
+    /* 新品　中古　ランキング部分のもっと見るボタン */
+   .linkbtn{
+    font-size: 14px;
+    margin-top: 20px;
+   }
+   .abn{
+    display: block;
+    margin: 0 auto;
+   }
+
 }

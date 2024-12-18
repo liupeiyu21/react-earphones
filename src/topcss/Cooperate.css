@@ -13,3 +13,9 @@
     color: #F08300;
     margin-top: 100px;
 }
+
+@media screen and (max-width:600px){
+    .cooper{
+        display: none;
+    }
+}

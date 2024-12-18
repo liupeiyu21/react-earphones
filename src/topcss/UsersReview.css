@@ -63,5 +63,8 @@
  margin-top: 50px;
 }
 
-
-
+@media screen and (max-width: 600px){
+    .users{
+        display: none;
+    }
+}

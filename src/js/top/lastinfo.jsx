@@ -4,6 +4,7 @@ import '../../topcss/Lastinfo.css'
 function Lastinfo (){
     return(
         <>
+        <div className="last">
         <ul className="last-info">
             <li><a href="#">会社概要</a></li>
             <li><a href="#">プライバシーポリシー　</a></li>
@@ -17,6 +18,7 @@ function Lastinfo (){
             <p>このWEBサイトに掲載されている記事・写真・図表などの転載・複製の一切を禁じます。</p>
             <p>&copy; e☆イヤホン</p>
         </div>
+    </div>
         </>
     )
 }

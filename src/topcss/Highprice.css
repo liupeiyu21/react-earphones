@@ -60,4 +60,31 @@
 width: 100%;
 }
 
+@media screen and ( max-width: 600px) {
+  .old-items{
+    margin: 0 auto;
+
+  }
+  .old-items > h2{
+    font-size: 20px;
+    margin: 0 auto 40px;
+  }
+  .old-item-btn{
+    top: 18%;
+  }
+  .old-brand{
+    font-size: 10px;
+  }
+  .old-name{
+    font-size: 14px;
+  }
+  .old-price{
+    font-size: 14px;
+    margin-top: 0;
+  }
+  .old-btn{
+    margin: 30px auto 0;
+    font-size: 14px;
+  }
+}
 

@@ -5,6 +5,7 @@ import NewPr from '../../assets/new-products.png'
 import { SlideNextButton } from "./SlideNextButton";
 import { SlidePrevButton } from "./SlidePrevButton";
 
+
 import '../../topcss/RecentlySwiper.css'
 const data = ["Slide 1", "Slide 2", "Slide 3", "Slide 4","Slide 5","Slide 6","Slide 7","Slide 8"] ;
 
@@ -15,11 +16,11 @@ function RecentlySwiper (){
         <div className="recentlycheck">
             <h2>最近チェックした商品</h2>
             <Swiper
-                   breakpoints={{
-                    640: {
+                  breakpoints={{
+                    375: {
                       slidesPerView:2,
-                      spaceBetween:50,
-                
+                      spaceBetween:5,
+                      
                     },
                     768: {
                       slidesPerView:3,

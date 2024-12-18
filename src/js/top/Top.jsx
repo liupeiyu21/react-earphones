@@ -16,13 +16,20 @@ import Lastinfo from "./Lastinfo";
 import '../../topcss/Top.css'
 import Banner from "./Banner";
 import RecentlySwiper from "./RecentlySwiper";
+import TopLinkImg from "../sp/TopLinkImg";
+import HamburgerMenu from "../sp/HamburgerMenu";
+import SpSearch from "../sp/SpSearch";
 
 function Top() {
 
     return(
         <>
+       
         <Header />
+        <HamburgerMenu />
+        <SpSearch />
         <FasView />
+        <TopLinkImg />
         <div className="abn">
             <Banner />
             <div className="vbn">

@@ -244,7 +244,7 @@ export default function Header() {
             <li><a href="#">買取&amp;QA</a></li>
           </ul>
       </div>
-
+     
       </>
     );
   }

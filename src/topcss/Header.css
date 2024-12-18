@@ -156,39 +156,33 @@ ul li button{
 
 
 @media screen and (max-width: 600px) {
-    nav{
-        width: 26%;
-        padding: 1%;
-    }
-    .logo-img{
-        width: 80%;
-    }
-
-    .swiper-slide-content{
-        width: 26%;
-    }
-    .swiper-slide{
-        padding: 0;
-    }
-    .logo-text {
+    .logo-text{
         display: none;
     }
+  
     .headIcon{
         display: none;
     }
-    .logo > h1 > img{
+   
+    h1{
         width: 80%;
+        margin: 50px auto 10px;
+       
+        
     }
-    nav > ul {
-        display: none;
+    .logo-img{
+        width: 100%; 
     }
-    .swiper-movebtn{
-        max-width: 26%;
-    
+    nav{
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 998;
     }
-    .swiper-pagination{
-        display: none;
-    }
+
+
 }
 
 

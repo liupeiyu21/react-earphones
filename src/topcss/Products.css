@@ -82,6 +82,42 @@
   }
 
 
-/* .heading > h2{
-    padding: 0 50px;
-} */
+@media screen and ( max-width: 600px) {
+
+    .container{
+      /* display: none; */
+      margin-top: 40px;
+      
+    }
+
+  .heading > h2{
+    font-size: 16px;
+    white-space: nowrap;
+  }
+  .heading{
+    display: flex;
+    justify-content: center;
+    gap: 11vw;
+    
+    margin: 0 auto;
+   
+  }
+  .item-list{
+   
+    margin: 30px auto;
+    gap: 11vw;
+  }
+  .item-card{
+    width: 38%;
+    gap: 5px;
+  }
+  .products-brand{
+    font-size: 10px;
+  }
+  .products-name{
+    font-size: 14px;
+  }
+  .products-price{
+    font-size: 14px;
+  }
+}

@@ -47,3 +47,8 @@ ul li a:hover{
     line-height: 50px;
 }
 
+@media screen and (max-width:600px) {
+    footer{
+        display: none;
+    }
+}
