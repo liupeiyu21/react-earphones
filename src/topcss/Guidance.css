@@ -59,6 +59,18 @@
 
 @media screen and (max-width:600px) {
     .guidance{
-        display: none;
+       margin-top: 40px;
+    }
+    .guidance-title{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .guidance-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .guidance-num{
+        margin-bottom: 20px;
     }
 }

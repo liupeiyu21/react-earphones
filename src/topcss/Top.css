@@ -21,6 +21,16 @@
 .sp-store{
     display: none;
 }
+.sp-staff-review{
+    display: none;
+}
+.sp-users{
+    display: none;
+}
+.sp-footer-infor{
+    display: none;
+}
+
 
 @media screen and (max-width: 600px) {
     .abn .vbn{
@@ -114,4 +124,93 @@
     margin: 0 auto;
    }
 
+   /* staffのレビュー　スマホ版 */
+   .sp-staff-review{
+    display: block;
+   }
+   .review-list{
+    display: flex;
+    /* justify-content: space-around; */
+    margin: 0 20px 0 20px;
+   }
+   .review-card{
+    width: 100%;
+    }
+    .review-card > img{
+    width: 100%;
+    }
+    .sp-staff-review-title{
+        font-size: 20px;
+        color: #F08300;
+        margin-top: 40px;
+    }
+    .sp-title-all{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 20px;
+    }
+    .review-brand{
+        font-size: 10px;
+    }
+    .review-name{
+        font-size: 14px;
+    }
+    .review-description{
+        font-size: 14px;
+    }
+    .staff{
+        font-size: 10px;
+    }
+    .sp-button{
+        font-size: 14px;
+        padding: 15px 50px;
+        color: #F08300;
+        background-color: #fff;
+        margin-top: 30px;
+    }
+
+
+       /* usersのレビュー　スマホ版 */
+     .sp-users{
+        display: block;
+     }
+     .users-card{
+        width: 100%;
+     }
+     .users-list{
+        margin: 0 20px;
+     }
+     .sp-users-title{
+        font-size: 20px;
+        color: #F08300;
+        margin-top: 40px;
+     }
+     .users-star::after{
+        font-size: 20px;
+    }
+    .users-brand{
+        font-size: 10px;
+    }
+    .users-title{
+        font-size: 14px;
+    }
+    .user-description{
+        font-size: 14px;
+    }
+    .users-name{
+        font-size: 10px;
+    }
+    .sp-users-review-brn{
+        font-size: 14px;
+        padding: 15px 50px;
+        color: #F08300;
+        background-color: #fff;
+        margin-top: 30px;
+    }
+
+    /* スマホのfooter */
+    .sp-footer-infor{
+        display: block;
+    }
 }

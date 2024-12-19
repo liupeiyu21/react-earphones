@@ -46,6 +46,16 @@
 
 @media screen and (max-width: 600px) {
     .recom{
-        display: none;
+        margin-top: 40px;
+    }
+    .recom-tile{
+        font-size: 20px;
+    }
+    .recom-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .recom-img{
+        width: 100%;
     }
 }

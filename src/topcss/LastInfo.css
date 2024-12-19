@@ -16,7 +16,10 @@
     line-height: 30px;
 }
 @media screen and (max-width:600px) {
-    .last{
+    .last-info{
         display: none;
+    }
+    .last{
+        margin: 20px 15px 0 15px;
     }
 }

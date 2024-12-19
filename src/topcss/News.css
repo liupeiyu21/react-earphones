@@ -39,6 +39,17 @@
 }
 @media screen and (max-width:600px ){
     .news-content{
-        display: none;
+       display: flex;
+       flex-direction: column;
+       margin: 40px 20px;
+    }
+    .news{
+        width: 100%;
+    }
+    .news-notices{
+        font-size: 20px;
+    }
+    .news-notice{
+        margin-bottom: 30px;
     }
 }

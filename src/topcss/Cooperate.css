@@ -16,6 +16,20 @@
 
 @media screen and (max-width:600px){
     .cooper{
-        display: none;
+      margin: 0 5px;
+    }
+    .cooperate-title{
+        font-size: 20px;
+    }
+    .cooperate-img{
+        display: flex;
+        justify-content: space-between;
+    }
+    .cooperate-img1{
+        margin: 0;
+      
+    }
+    .cooperate-img2{
+        margin: 0;
     }
 }

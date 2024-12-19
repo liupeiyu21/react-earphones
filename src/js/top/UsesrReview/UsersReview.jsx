@@ -1,5 +1,5 @@
 import React from "react";
-import UsersList from "./usesList";
+import UsersList from "./UsesList";
 import '../../../topcss/UsersReview.css'
 
 const usersItems = [

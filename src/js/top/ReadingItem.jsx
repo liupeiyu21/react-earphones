@@ -19,8 +19,22 @@ function ReadingItem() {
     <div className="read-items">
        <h2>e☆イヤホンの読みもの！</h2>
       <Swiper
-        spaceBetween={50}
-        slidesPerView={3}
+                breakpoints={{
+          375:{
+            slidesPerView:1,
+            spaceBetween:20,
+          },
+          768:{
+            slidesPerView:2,
+            spaceBetween: 20,  
+          },
+          1024:{
+            slidesPerView:3,
+            spaceBetween:20, 
+          }
+        }}
+        // spaceBetween={50}
+        // slidesPerView={3}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
         modules={[Pagination]}

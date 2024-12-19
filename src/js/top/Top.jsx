@@ -19,7 +19,9 @@ import RecentlySwiper from "./RecentlySwiper";
 import TopLinkImg from "../sp/TopLinkImg";
 import HamburgerMenu from "../sp/HamburgerMenu";
 import SpSearch from "../sp/SpSearch";
-
+import SpStallReview from '../sp/SpStaffReview'
+import SpUsersReview from '../sp/SpUsersReview'
+import Spfooter from '../sp/Spfooter'
 function Top() {
 
     return(
@@ -36,8 +38,14 @@ function Top() {
                 <RecentlySwiper />
                 <Products />
                 <HighPrice />
+                
+                <SpStallReview />
+                
                 <StaffReview />
+                
                 <UsersReview />
+                <SpUsersReview />
+
                 <ReadingItem />
                 <Recommendation />
                 <News />
@@ -47,6 +55,7 @@ function Top() {
         </div>
    
         <Footer />
+        <Spfooter />
         <Lastinfo />
         </>
     )
